@@ -23,7 +23,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide upper-right co
 st.header("📖 Introduction")
 st.subheader("What is this")
 st.write("""
-         This tool is developed for Python developers who want to check the dependencies within a development environment (e.g., conda, venv) to check if the licenses of the installed packages are compatible with to the intented license of their developed programs.
+         This tool is developed for Python developers who want to check the dependencies within a development environment (e.g., conda, venv) to check if the licenses of the installed packages are compatible to the intented license of their developed program.
          
          Python developers can select licenses which they have concern about and see how they affect the dependency graph of a development environment
          """)
